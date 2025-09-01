@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  accent-color: #2563eb;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+.bg-gray-50 { background-color: #f9fafb; }
+.bg-white { background-color: #ffffff; }
+.bg-blue-600 { background-color: #2563eb; }
+.bg-green-600 { background-color: #16a34a; }
+.bg-yellow-100 { background-color: #fef3c7; }
+
+.text-white { color: #ffffff; }
+.text-yellow-800 { color: #78350f; }
+
+.font-bold { font-weight: 700; }
+.font-semibold { font-weight: 600; }
+
+.rounded { border-radius: 0.5rem; }
+.shadow { box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.border { border: 1px solid #d1d5db; }
+
+.p-1 { padding: 0.25rem; }
+.p-2 { padding: 0.5rem; }
+.p-3 { padding: 0.75rem; }
+.p-4 { padding: 1rem; }
+
+.m-1 { margin: 0.25rem; }
+.m-2 { margin: 0.5rem; }
+.m-4 { margin: 1rem; }
+
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-4 { margin-top: 1rem; }
+
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.gap-2 { gap: 0.5rem; }
+.gap-4 { gap: 1rem; }
+
+.text-sm { font-size: 0.875rem; }
+.text-xl { font-size: 1.25rem; }
